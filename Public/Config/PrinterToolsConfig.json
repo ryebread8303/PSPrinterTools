@@ -1,0 +1,23 @@
+{
+    "DHCPServers":  [
+                        "DHCPSRV1",
+                        "DHCPSRV2"
+                    ],
+    "PrintServers":  [
+                         "PRNSRV1",
+                         "PRNSRV2",
+                         "PRNSRV3"
+                     ],
+    "PrintersMABGroup":  "PRINTERS",
+    "PrintersMABOU": "OU=NPS,DC=foo,DC=bar,DC=com",
+    "NPSAcountPW": "somepassword",
+    "PrinterIPScopes":  [
+                            "16.32.0.0",
+                            "16.33.0.0",
+                            "16.34.0.0"
+                        ],
+    "PrinterDBDataFolder":  "C:\\ProgramData\\PrinterDB",
+    "SQLServer": "SQLSERVER",
+    "Domain": "foo.bar.com",
+    "DC": "dchostname"
+}
